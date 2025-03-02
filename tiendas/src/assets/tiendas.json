@@ -1,0 +1,29 @@
+{
+  "tiendas": [
+    {
+      "id": 1,
+      "nombre": "Frutería Manolo",
+      "ubicacion": "Calle Mayor 12"
+    },
+    {
+      "id": 2,
+      "nombre": "Supermercado Luisa",
+      "ubicacion": "Avenida del Sol 45"
+    },
+    {
+      "id": 3,
+      "nombre": "Carnicería Pepe",
+      "ubicacion": "Plaza Central 78"
+    },
+    {
+      "id": 4,
+      "nombre": "Panadería Ana",
+      "ubicacion": "Calle Ancha 10"
+    },
+    {
+      "id": 5,
+      "nombre": "Tienda de Bebidas Juan",
+      "ubicacion": "Ronda Sur 21"
+    }
+  ]
+}

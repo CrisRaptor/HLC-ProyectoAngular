@@ -1,0 +1,124 @@
+{
+  "productos": [
+    {
+      "id": "101",
+      "nombre": "Manzanas",
+      "precio": 1.5,
+      "tiendas": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "102",
+      "nombre": "Plátanos",
+      "precio": 2,
+      "tiendas": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "103",
+      "nombre": "Naranjas",
+      "precio": 1.75,
+      "tiendas": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "104",
+      "nombre": "Leche",
+      "precio": 1.2,
+      "tiendas": [
+        2
+      ]
+    },
+    {
+      "id": "105",
+      "nombre": "Pan",
+      "precio": 0.8,
+      "tiendas": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "106",
+      "nombre": "Filete de ternera",
+      "precio": 12.5,
+      "tiendas": [
+        3
+      ]
+    },
+    {
+      "id": "107",
+      "nombre": "Chuletas de cerdo",
+      "precio": 8,
+      "tiendas": [
+        3
+      ]
+    },
+    {
+      "id": "108",
+      "nombre": "Barra de pan",
+      "precio": 0.6,
+      "tiendas": [
+        4
+      ]
+    },
+    {
+      "id": "109",
+      "nombre": "Magdalenas",
+      "precio": 2.5,
+      "tiendas": [
+        4
+      ]
+    },
+    {
+      "id": "110",
+      "nombre": "Agua mineral",
+      "precio": 0.9,
+      "tiendas": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "111",
+      "nombre": "Refresco de cola",
+      "precio": 1.1,
+      "tiendas": [
+        2,
+        5
+      ]
+    },
+    {
+      "nombre": "Cerveza",
+      "precio": 2,
+      "tiendas": [
+        5
+      ],
+      "id": "112"
+    },
+    {
+      "id": "113",
+      "nombre": "Sandia",
+      "precio": 4.4,
+      "tiendas": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "114",
+      "nombre": "Sopa",
+      "precio": 3.3,
+      "tiendas": [
+        2,
+        3
+      ]
+    }
+  ]
+}
