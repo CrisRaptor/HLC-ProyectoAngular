@@ -1,0 +1,21 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container {
+    max-width: 900px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.form-group {
+    margin: 25px auto;
+}

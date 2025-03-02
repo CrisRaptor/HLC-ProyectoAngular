@@ -1,0 +1,9 @@
+<div *ngIf="tienda" class="container">
+    <h1>{{ tienda.nombre ? tienda.nombre : "Tienda desconocida" }}</h1>
+    <p class="lead">Ubicacion: {{ tienda.ubicacion ? tienda.ubicacion : 'Desconocido' }}</p>
+    <section>
+        <h3>Productos</h3>
+        <app-producto-list></app-producto-list>
+    </section>
+    <button class="btn btn-primary" (click)="irACrearProducto()">Añadir nuevo Producto</button>
+</div>

@@ -1,0 +1,24 @@
+<section class="content">
+    <div class="container">
+        <div class="center-text">
+            <h1>CREAR PRODUCTO</h1>
+        </div>
+        <form [formGroup]="productoForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" formControlName="nombre" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="precio">Precio</label>
+                <input type="number" id="precio" formControlName="precio" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="tiendas">Tiendas</label>
+                <select id="tiendas" formControlName="tiendasSeleccionadas" class="form-control" multiple>
+                    <option *ngFor="let tienda of tiendas" [value]="tienda.id">{{ tienda.id }} - {{ tienda.nombre }}</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Crear Producto</button>
+        </form>
+    </div>
+</section>

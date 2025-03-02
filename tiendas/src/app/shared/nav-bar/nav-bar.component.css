@@ -1,0 +1,12 @@
+.navbar{
+    max-height: 10vh;
+    min-height: 50px;
+    background-color: #feffe2;
+    padding-left: 5px;
+}
+
+img {
+    max-height: 9vh;
+    min-height: 50px;
+    box-sizing: content-box;
+}

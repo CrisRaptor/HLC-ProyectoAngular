@@ -1,0 +1,5 @@
+<ul style="list-style-type: none;">
+    <li *ngFor="let tienda of tiendas" [ngClass]="{'selected': tiendaSeleccionada == tienda.id}">
+        <a [routerLink]="['/tiendas', tienda.id]" >▶ {{ tienda.nombre }}</a>
+    </li>
+</ul>

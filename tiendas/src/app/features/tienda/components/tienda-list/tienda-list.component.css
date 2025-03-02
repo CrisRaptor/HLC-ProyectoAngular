@@ -1,0 +1,21 @@
+a {
+    font-size: xx-large;
+    color: #314999;
+    text-decoration: none;
+}
+
+ul {
+    text-align: start;
+    max-width: 500px;
+    padding: 0;
+}
+
+.selected {
+    background-color: #314999;
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+}
+
+.selected a {
+    color: white;
+}
