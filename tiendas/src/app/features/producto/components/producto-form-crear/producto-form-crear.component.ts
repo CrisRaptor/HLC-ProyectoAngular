@@ -47,10 +47,10 @@ export class ProductoFormCrearComponent implements OnInit {
       this.productoService.getAllProductos().then((productos: Producto[]) => {
         const maxId = productos.length > 0 ? Math.max(...productos.map(p => p.id)) : 0;
         const producto: Producto = {
+          id: maxId + 1,
           nombre: this.productoForm.value.nombre,
           precio: this.productoForm.value.precio,
-          tiendas: this.productoForm.value.tiendasSeleccionadas.map((tienda: any) => Number(tienda)),
-          id: maxId + 1
+          tiendas: this.productoForm.value.tiendasSeleccionadas.map((tienda: any) => Number(tienda))
         };
 
         this.productoService.createProducto(producto).then(

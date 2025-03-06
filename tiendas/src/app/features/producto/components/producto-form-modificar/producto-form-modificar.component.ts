@@ -67,7 +67,6 @@ export class ProductoFormModificarComponent {
     console.log(this.productoForm.valid);
     if (this.productoForm.valid) {
       this.productoService.getAllProductos().then((productos: Producto[]) => {
-        const maxId = productos.length > 0 ? Math.max(...productos.map(p => p.id)) : 0;
         this.servicio_producto.getProductoById(Number(this.productoId)).then((productoExistente: Producto | null) => {
           const tiendasAnteriores = productoExistente ? productoExistente.tiendas : [];
 
